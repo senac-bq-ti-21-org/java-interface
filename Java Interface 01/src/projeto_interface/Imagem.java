@@ -3,7 +3,7 @@ import java.awt.*;
 import javax.swing.*;
 public class Imagem extends JFrame{
     private JLabel label1, label2;
-    private ImageIcon icone = new ImageIcon("C:\\Users\\887335\\Pictures\\Saved Pictures\\Screenshot_20200305-120123.png");
+    private ImageIcon icone = new ImageIcon("CAMINHO_DA_IMAGEM");
     public Imagem(){
         this.setTitle("Labels");
         this.setSize(350,120);
