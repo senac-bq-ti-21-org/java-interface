@@ -12,8 +12,8 @@ public class Interface extends JFrame {
     public static void main(String[] args) {
         Interface janela = new Interface();
         janela.setUndecorated(true);
-        janela.setVisible(true);
         janela.getRootPane().setWindowDecorationStyle(HIDE_ON_CLOSE);
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        janela.setVisible(true);
     }
 }
