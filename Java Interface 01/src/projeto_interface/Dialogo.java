@@ -17,5 +17,6 @@ public class Dialogo {
                 JOptionPane.showMessageDialog(null, "Login " + s + " inválido.", "Erro.", JOptionPane.ERROR_MESSAGE);
             }
         }
+        System.exit(0);
     }
 }
